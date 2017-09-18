@@ -1,10 +1,12 @@
 <?php
 	
 	// Define a Constant
-	
+	define("TITLE", "Variables and Constants");
 	
 	// Your Variables
-	
+	$name = "Kevin";
+	$fav_color = "blue";
+	$birth_year = 1988;
 	
 	/*
 	Use PHP to calculate the difference
@@ -12,6 +14,13 @@
 	to show your age dynamically
 	*/
 
+	date_default_timezone_set ('US/Eastern');
+
+	$today = date ('F, d, Y');
+	$current_year = date ('Y');
+	
+	$my_age = ($current_year - $birth_year);
+	
 	
 ?>
 
