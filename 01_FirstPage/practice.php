@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My First PHP Web Page</title>
+		<title>My Third PHP Web Page</title>
 	</head>
 	<body>
-		<?php print('Hello friends!'); ?>
+		<?php print('So this is like my third PHP page I think'); ?>
 	</body>
 </html>
