@@ -16,7 +16,7 @@
 
 	date_default_timezone_set ('US/Eastern');
 
-	$today = date ('F, d, Y');
+	$today = date ('F d, Y');
 	$current_year = date ('Y');
 	
 	$my_age = ($current_year - $birth_year);
@@ -48,7 +48,7 @@
 				<h3>My Name:</h3>
 				<p><?php echo $name; ?> </p>
 				
-				<h3>My Favourite Colour:</h3>
+				<h3>My Favourite Color:</h3>
 				<p><?php echo $fav_color; ?> </p>
 				
 				<h3>My Age:</h3>
