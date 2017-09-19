@@ -1,19 +1,22 @@
 <?php
 	
 	// Constants
-
+	define("TITLE", "Arrays");
 	
 	// Custom Variables
-
+	$my_name = "Kevin";
+	$lesson_num = 6;
+	$bananas = 10;
 	
 	// Moustache Array
+	$moustaches = array("handlebar", "salvador dali", "fu manchu", "hitlerstache");
 	
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><!-- PAGE TITLE --></title>
+		<title><?php echo TITLE; ?><!-- PAGE TITLE --></title>
 		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -22,7 +25,7 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Lecture <!-- LESSON NUMBER -->: <small><!-- PAGE TITLE --></small></h1>
+			<h1>Lecture <?php echo $lesson_num; ?> <!-- LESSON NUMBER -->: <small><!-- PAGE TITLE --></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
@@ -31,9 +34,10 @@
 			
 				<h2>Moustache Types</h2>
 				<ul>
-					<li><!-- MOUSTACHE 1 --></li>
-					<li><!-- MOUSTACHE 2 --></li>
-					<li><!-- MOUSTACHE 3 --></li>
+					<li><?php echo $moustaches[0]; ?><!-- MOUSTACHE 1 --></li>
+					<li><?php echo $moustaches[1]; ?><!-- MOUSTACHE 2 --></li>
+					<li><?php echo $moustaches[2]; ?><!-- MOUSTACHE 3 --></li>
+					<li><?php echo $moustaches[3]; ?></li>
 				</ul>
 				
 			</div><!-- end sandbox -->

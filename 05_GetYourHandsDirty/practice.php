@@ -48,7 +48,7 @@
 				<h3>My Name:</h3>
 				<p><?php echo $name; ?> </p>
 				
-				<h3>My Favourite Color:</h3>
+				<h3>My Favorite Color:</h3>
 				<p><?php echo $fav_color; ?> </p>
 				
 				<h3>My Age:</h3>
