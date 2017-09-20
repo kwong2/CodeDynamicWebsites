@@ -1,13 +1,43 @@
 <?php
 
 	// Constants
-
+	define("TITLE", "My Hands Are DIRTY and need to be washed.");
 
 	// Variables
+	$age_group = array("child", "teenager", "adult");
+	$name = "Kevin";
 
 	
 	// Arrays
-	
+	$handlebar = array (
+		"name" => "HandleBar",
+		"color" => "Black"
+	);
+
+	$fu_manchu = array (
+		"name" => "Fu Manchu",
+		"color" => "Brown"
+	);
+
+	$salvador = array (
+		"name" => "Salvador Dali",
+		"color" => "weird"
+	);
+
+	$gentlemen = array (
+		array (
+			"first_name" => "Chris",
+			"country" => "Canada"
+		),
+		array ( 
+			"first_name" => "Kevin",
+			"country" => "USA"
+		),
+		array (
+			"first_name" => "Wong", 
+			"country" => "China"
+		)
+	);
 ?>
 
 <!DOCTYPE html>
@@ -33,14 +63,14 @@
 			
 			<div class="sandbox">
 				
-				<h3></h3>
-				<p></p>
+				<h3><?php echo $gentlemen[0]["first_name"]; ?>  </h3>
+				<p>from the country of <?php echo $gentlemen[0]["country"]; ?> is known for sporting his very own <?php $handlebar["name"]; ?> which is <?php $handlebar["color"]; ?> in color.</p>
 				
-				<h3></h3>
-				<p></p>
+				<h3><?php echo $gentlemen[1]["first_name"]; ?> </h3>
+				<p>Now this man is from <?php echo $gentlemen[1]["country"]; ?>. He has a <?php echo $fu_manchu["name"]; ?> and man it is weird on him. Just to let you know it is <?php $fu_manchu["color"]; ?> in color. Yeesh.</p>
 				
-				<h3></h3>
-				<p></p>
+				<h3><?php echo $gentlemen[2]["first_name"]; ?> </h3>
+				<p>Let's talk about Wong. He thought about using the Beyonce but it was taken long ago. <?php echo $gentlemen[2]["first_name"]; ?> has an interesting choice of mustache. He has a <?php echo $salvador["name"]; ?> moustache. It is so <?php echo $salvador["color"]; ?>  in color. It is probably best you avoid him entirely.</p>
 				
 			</div><!-- end sandbox -->
 			
