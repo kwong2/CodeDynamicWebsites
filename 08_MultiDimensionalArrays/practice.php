@@ -15,7 +15,7 @@
 <html>
 	<head>
 		<title>PHP <!-- PAGE TITLE --></title>
-		<link href="/assets/styles.css" rel="stylesheet">
+		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">
