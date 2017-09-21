@@ -1,9 +1,12 @@
 <?php
 	
 	// Constants
-
+	define ("TITLE", "The Comparison Operators. Man there are some for the same thing.");
 	
 	// Custom Variables
+	$lesson_num = 14;
+	$name = "Kevin Wong";
+	 
 
 
 ?>
@@ -11,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- TITLE --></title>
+		<title>PHP <?php echo TITLE ; ?></title>
 		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -20,7 +23,7 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo $lesson_num; ?>: <small><?php echo TITLE ; ?></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
