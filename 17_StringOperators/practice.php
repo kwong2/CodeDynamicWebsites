@@ -1,17 +1,17 @@
 <?php
 	
 	// Constants
-
-	
+	define("TITLE", "String Operators");
+	define("LESSON", 17);
 	// Custom Variables
-
+	
 
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- TITLE --></title>
+		<title>PHP <?php echo TITLE;?> </title>
 		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -20,7 +20,7 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo LESSON; ?> : <small><?php echo TITLE;?> </small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
@@ -29,12 +29,15 @@
 				
 				<h3>Concatenation Operator <code>.</code></h3>
 				<?php
-					// your code here
+					$a = "hello";
+					$b = "world";
+					echo $a .= $b;
 				?>
 				
 				<h3>Concatenating Assignment Operator <code>.=</code></h3>
 				<?php
-					// your code here
+					$c = "What the";
+					echo $c .= "hello";
 				?>
 				
 			</div><!-- end sandbox -->
