@@ -29,7 +29,9 @@
 			<div class="sandbox">
 				
 				<?php
-				 
+				 for ($n = 0; $n <= 30; $n++){
+					 echo "$n <br>"; 
+				 };
 				    // your code here
 				 
 				?>
