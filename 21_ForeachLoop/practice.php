@@ -29,9 +29,11 @@
 			<div class="sandbox">
 				
 				<?php
-				 
-				    // your code here
-				 
+				$wrestlers = array("Ric Flair", "Hulk Hogan", "The Rock", "Stone Cold");
+				foreach ($wrestlers as $wrestler) {
+					echo "I tell you who was good, $wrestler was awesome. <br>";
+				};
+				
 				?>
 				
 			</div><!-- end sandbox -->
