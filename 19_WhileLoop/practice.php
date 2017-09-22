@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- TITLE --></title>
+		<title>PHP <?php echo "WHILE Loops" ;?> </title>
 		<link href="../assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -20,7 +20,7 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo 19; ?> : <small><?php echo "WHILE Loops" ; ?> </small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
@@ -28,8 +28,12 @@
 			<div class="sandbox">
 				
 				<?php
-				 
-				    // your code here
+				 $n = 10;
+
+				 while ($n <= 25){
+					 echo $n ."<br>";
+					 $n++;
+				 };
 				 
 				?>
 				
