@@ -33,7 +33,13 @@
 				foreach ($wrestlers as $wrestler) {
 					echo "I tell you who was good, $wrestler was awesome. <br>";
 				};
-				
+				?>
+			<br>
+			<br>
+				<?php
+				foreach ($wrestlers as $wrestler){
+					echo "Wrestler: $wrestler, Hall of Famer. <br>";
+				};
 				?>
 				
 			</div><!-- end sandbox -->
