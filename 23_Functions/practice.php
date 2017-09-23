@@ -30,15 +30,23 @@
 				
 				<h3>Using <code>sort()</code></h3>
 				<?php
+					$wrestlers = array ("Rock", "Cena", "Hogan", "Stratus", "Lita", "Banks");
 					
-					// your code here
-					
+					sort ($wrestlers);
+
+					foreach($wrestlers as $wrestler){
+						echo "$wrestler <br>";
+					};
 				?>
 				
 				<h3>Using <code>rsort()</code></h3>
 				<?php
-					
-					// your code here
+					$devices = array("LG", "Nexus", "Samsung", "Apple");
+					rsort($devices);
+
+					foreach ($devices as $device) {
+						echo "$device <br>";
+					};
 					
 				?>
 				
