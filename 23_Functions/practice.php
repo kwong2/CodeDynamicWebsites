@@ -52,14 +52,16 @@
 				
 				<h3>Using <code>strtolower()</code></h3>
 				<?php
-					
+					echo strtolower("THIS STRING WAS UPPERCASE AND NOW IT IS LOWERCASE.");
 					// your code here
 					
 				?>
 				
 				<h3>Using <code>sha1()</code></h3>
 				<?php
-					
+					echo "Man you wanna see what happens when I put this exact string through sha1(). <br>";
+
+					echo sha1("Man you wanna see what happens when I put this exact string through sha1().");
 					// your code here
 					
 				?>
