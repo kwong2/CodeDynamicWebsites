@@ -30,7 +30,15 @@
 				
 				<?php
 				 
-				    // your code here
+						// your code here
+						
+						$n = 0;
+
+						do {
+							echo "$n <br>";
+							$n++;
+						} 
+						while ($n <= 25);
 				 
 				?>
 				
