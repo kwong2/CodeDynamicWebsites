@@ -23,13 +23,14 @@
           <img src="img/banner.png" alt="China Hollywood">
 
       </div>
-
+    
       <div id="nav">
         <ul>
+            <!-- need to correct links -->
           <li><a href="index.php">Home</a></li>
-          <li><a href="index.php">Menu</Menu:c></a></li>
-          <li><a href="index.php">About</a></li>
-          <li><a href="index.php">Contact</a></li>
+          <li><a href="menu.php">Menu</Menu:c></a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
 
