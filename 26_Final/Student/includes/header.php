@@ -26,10 +26,6 @@
     
       <div id="nav">
         <ul>
-            <!-- need to correct links -->
-          <li><a href="index.php">Home</a></li>
-          <li><a href="menu.php">Menu</Menu:c></a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <?php include('includes/nav.php'); ?>
         </ul>
       </div>
