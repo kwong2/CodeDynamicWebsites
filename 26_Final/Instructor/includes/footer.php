@@ -38,8 +38,10 @@
 		
 	</div><!-- wrapper -->
 	
+	
 	<div class="copyright-info">
-		<?php include('../assets/includes/copyright.php'); ?>
-	</div><!-- copyright-info -->
+	
+	</div>
+	<!-- copyright-info -->
 </body>
 </html>
