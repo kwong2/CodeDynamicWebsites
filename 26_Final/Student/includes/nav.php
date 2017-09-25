@@ -1,4 +1,6 @@
-<li><a href="index.php">Home</a></li>
-<li><a href="menu.php">Menu</Menu:c></a></li>
-<li><a href="about.php">About</a></li>
-<li><a href="contact.php">Contact</a></li>
+<ul>
+  <li><a href="index.php">Home</a></li>
+  <li><a href="menu.php">Menu</Menu:c></a></li>
+  <li><a href="about.php">About</a></li>
+  <li><a href="contact.php">Contact</a></li>
+</ul>

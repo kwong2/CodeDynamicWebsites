@@ -25,7 +25,5 @@
       </div>
     
       <div id="nav">
-        <ul>
-          <?php include('includes/nav.php'); ?>
-        </ul>
+        <?php include('includes/nav.php'); ?>
       </div>
