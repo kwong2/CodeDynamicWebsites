@@ -19,11 +19,18 @@
     <div class = "wrapper">
 
       <div id="banner">
+        <a href="index.php" title="Return to Home">
+          <img src="img/banner.png" alt="China Hollywood">
 
       </div>
 
       <div id="nav">
-      
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="index.php">Menu</Menu:c></a></li>
+          <li><a href="index.php">About</a></li>
+          <li><a href="index.php">Contact</a></li>
+        </ul>
       </div>
 
       <div class="content">
