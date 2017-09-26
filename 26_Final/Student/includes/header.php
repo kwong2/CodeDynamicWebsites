@@ -1,5 +1,6 @@
 <?php
   include('includes/arrays.php');
+  $companyName = "China Hollywood";
 ?>
 
 <!DOCTYPE html>

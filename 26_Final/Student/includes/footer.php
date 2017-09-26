@@ -1,6 +1,6 @@
 <!-- variables -->
 <?php 
-  $companyName = "China Hollywood";
+  
 ?>
 
       <div class="content">
