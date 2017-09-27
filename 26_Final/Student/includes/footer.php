@@ -2,6 +2,8 @@
 <?php 
   date_default_timezone_set("America/New_York"); 
   $currentTime = date("h:i A");
+  $day_week = date("w");
+  $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") 
 ?>
 
       <div class="content">
@@ -19,7 +21,7 @@
 
           <div class="column three">
             <strong>Hours</strong>
-            <?php echo "It's now $currentTime ,";?><br>
+            <?php echo "Today is $days[$day_week] and It's now $currentTime ,";?><br>
             <em>Monday - Saturday</em><br>
             11:30 AM to 10:00 PM<br>
             <br>
