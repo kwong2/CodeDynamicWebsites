@@ -1,9 +1,19 @@
 <!-- variables -->
 <?php 
   date_default_timezone_set("America/New_York"); 
-  $currentTime = date("h:i A");
+  $currentHour = date ("G");
+  $currentTime = date("g:i A");
   $day_week = date("w");
-  $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") 
+  $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"); 
+  $currentDay = $days[$day_week];
+  function openCheck($day, $hour){
+    if (($day !== "Sunday") && ($hour >= 11 && $hour <= 20)){
+     echo "<strong>We are open!</strong>";
+   } else {
+     echo "<strong>We are closed.</strong> ";
+   };
+  }
+
 ?>
 
       <div class="content">
@@ -21,9 +31,11 @@
 
           <div class="column three">
             <strong>Hours</strong>
-            <?php echo "Today is $days[$day_week] and It's now $currentTime ,";?><br>
+            <?php echo "It's $currentTime on $currentDay, <br>";
+                echo openCheck($currentDay, $currentHour);
+            ?><br>
             <em>Monday - Saturday</em><br>
-            11:30 AM to 10:00 PM<br>
+            11:00 AM to 10:00 PM<br>
             <br>
             <em>Closed on Sundays</em><br>
             
