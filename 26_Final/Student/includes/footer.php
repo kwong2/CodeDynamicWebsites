@@ -1,7 +1,7 @@
 <!-- variables -->
 <?php 
   date_default_timezone_set("America/New_York"); 
-  $currentTime = date("h:i:sa");
+  $currentTime = date("h:i A");
 ?>
 
       <div class="content">
@@ -19,7 +19,7 @@
 
           <div class="column three">
             <strong>Hours</strong>
-            <?php echo "It's now $currentTime,";?>
+            <?php echo "It's now $currentTime ,";?><br>
             <em>Monday - Saturday</em><br>
             11:30 AM to 10:00 PM<br>
             <br>
