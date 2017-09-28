@@ -24,7 +24,6 @@
     <div class = "wrapper">
 
       <div id="banner">
-        <a href="index.php" title="Return to Home">
           <img src="img/banner.png" alt="China Hollywood">
 
       </div>

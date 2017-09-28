@@ -8,9 +8,9 @@
   $currentDay = $days[$day_week];
   function openCheck($day, $hour){
     if (($day !== "Sunday") && ($hour >= 11 && $hour <= 20)){
-     echo "<strong>We are open!</strong>";
+     echo "<h3>We are open!</h3>";
    } else {
-     echo "<strong>We are closed.</strong> ";
+     echo "<h3>We are closed.</h3> ";
    };
   }
 
