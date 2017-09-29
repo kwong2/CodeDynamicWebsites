@@ -2,13 +2,23 @@
   include('includes/header.php');
 ?>
 
-<h3>MENU</h3>
+<div id = "menu-items">
+  <h3>MENU</h3>
 
-<?php 	
-  foreach($menuItems as $item){
-   echo "<ul>$item[title] ---- $item[price]</ul>";
-  }
-?>
+  <p>Our menu, does it pack a kung pao kick or what!</p>
+
+<!-- making menu dynamic -->
+  <?php 	
+    foreach ($menuItems as $dish => $item) { ?>
+      <li><a href="dish.php?item=<?php echo $dish; ?>">
+      <?php echo $item["title"]; ?> </a> 
+      <?php echo $item["price"]; ?> 
+      <br> <br>
+      </li>
+    <?php } ?>
+
+
+</div>
 
 <?php
   include('includes/footer.php');
