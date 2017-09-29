@@ -49,7 +49,7 @@
                   "wonton-soup" => array (
                       "title" => "Wonton Soup",
                       "price" => "$2.00",
-                      "blurb" => "A real crowd favorite. That broth wit the chicken filled wonton is good for any sickness."
+                      "blurb" => "A real crowd favorite. That broth with the chicken filled wonton is good for any sickness."
                   ),
                   "egg-drop-soup" =>  array (
                       "title" => "Egg Drop Soup",
