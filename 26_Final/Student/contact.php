@@ -18,7 +18,7 @@
         <input type="text" id="email" name="email">
       
         <label for="message">and your message</label>
-        <input type="text" id="message" name="message">
+        <textarea id ="message" name="message"></textarea>
 
         <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
         <label for="subscribe">Subscribe to our newsletter</label>
