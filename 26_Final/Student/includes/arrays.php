@@ -36,12 +36,12 @@
                       "blurb" => "A deep-fried Asian dumpling stuffed with cream cheese, 
                                   crab meat, and seasoning in wonton wrappers.",
                   ),
-                  "fried-chicken wings" => array (
+                  "fried-chicken-wings" => array (
                       "title" => "Fried Chicken Wings(8)",
                       "price" => "$6.75",
                       "blurb" => "What else can I say about Fried Chicken than that it is damn fumm of yums",
                   ),
-                  "char-siu spare ribs" => array (
+                  "char-siu-spare-ribs" => array (
                       "title" => "BBQ Char Siu Spare Ribs",
                       "price" => "$7.75",
                       "blurb" => "Have you ever had the itis after eating ribs? Well get ready for more bouts of itis after you try our Char Siu Spare Ribs.",

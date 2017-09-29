@@ -1,4 +1,5 @@
 <?php 
+  define("TITLE", "Menu | China Hollywood");
   include('includes/header.php');
 ?>
 
