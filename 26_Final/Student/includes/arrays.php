@@ -1,5 +1,4 @@
 <?php
-  define ("TITLE", "Menu | China Hollywood");
 
 
   // Nav Menu Items
