@@ -24,7 +24,7 @@
     <div class = "wrapper">
 
       <div id="banner">
-          <img src="img/banner.png" alt="China Hollywood">
+          <img src="img/chbanner2.png" alt="China Hollywood">
 
       </div>
     
