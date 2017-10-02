@@ -18,10 +18,10 @@
       </li>
     <?php } ?>
 
+    <hr>
 
 </div>
 
-<hr>
 <?php
   include('includes/footer.php');
 ?>
